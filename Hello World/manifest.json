@@ -1,0 +1,14 @@
+{
+    "manifest_version"  : 3,
+    "name"              : "1code-ext",
+    "version"           : "1.0",
+    "description"       : "Building an extension for chrome.",
+    "icons"             : {
+        "128"           : "Img/icon128.png",
+        "48"            : "Img/icon48.png",
+        "16"            : "Img/icon16.png"
+    },
+    "action"            : {
+        "default_popup" : "popup.html"
+    }
+}
