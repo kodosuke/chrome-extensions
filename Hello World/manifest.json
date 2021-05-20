@@ -1,6 +1,6 @@
 {
     "manifest_version"  : 3,
-    "name"              : "1code-ext",
+    "name"              : "Hello World",
     "version"           : "1.0",
     "description"       : "Building an extension for chrome.",
     "icons"             : {
