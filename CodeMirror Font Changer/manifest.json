@@ -1,0 +1,33 @@
+{
+    "name"      : "CodeMirror Font Changer",
+    "version"   :   "1.0",
+    "description"   :   "An extension to change the Leetcode code editor fonts.",
+    "manifest_version" : 3,
+    "icons"     : {
+        "128"   : "./Icons/fox_128.png",
+        "48"   : "./Icons/fox_48.png",
+        "32"   : "./Icons/fox_32.png",
+        "16"   : "./Icons/fox_16.png"
+    },
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "action" : {
+        "default_icons" : {
+            "128"   : "./Icons/fox_128.png",
+            "48"   : "./Icons/fox_48.png",
+            "32"   : "./Icons/fox_32.png",
+            "16"   : "./Icons/fox_16.png"
+        }
+    },
+    "permissions"   :   [
+        "storage",
+        "tabs",
+        "activeTab",
+        "scripting",
+        "notifications"
+    ],
+    "host_permissions"  :   [
+        "https://leetcode.com/*"
+    ]
+}
