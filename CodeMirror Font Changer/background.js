@@ -4,11 +4,11 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     {
         chrome.scripting.insertCSS({
             target : {  tabId : tabId},
-            files   :   [ "./stylesheets/userStyles.css" ]
+            files   :   [ "./Stylesheets/userStyles.css" ]
         })
         chrome.scripting.executeScript({
             target : {  tabId : tabId},
-            files   :   [ "./scripts/userScript.js" ]
+            files   :   [ "./Scripts/userScript.js" ]
         })
             .then((tab) => {
                 console.log("Injected Script Successfully.")
